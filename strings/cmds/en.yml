@@ -13,7 +13,7 @@
 # Bot Komutları
 PING_COMMAND : ["ping"]
 PRIVACY_COMMAND : ["privacy"]
-START_COMMAND : ["baslat"]
+START_COMMAND : ["start"]
 HELP_COMMAND : [ "yardim", "yardım"]
 SETTINGS_COMMAND : ["ayarlar", "ayar"]
 RELOAD_COMMAND : ["admincache", "reload"]
