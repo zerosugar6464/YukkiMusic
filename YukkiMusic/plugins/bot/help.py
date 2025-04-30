@@ -45,11 +45,11 @@ async def format_helper_text(lng, helper_key: str, text: str) -> str:
     def _cmd(key):
         return " ".join(f"/{cmd}" for cmd in _[key])
 
-    if helper_key == "Auth":
+    if helper_key == "💫 ʏᴇᴛᴋɪ̇ʟɪ̇":
         return text.format(
             _cmd("AUTH_COMMAND"), _cmd("UNAUTH_COMMAND"), _cmd("AUTHUSERS_COMMAND")
         )
-    elif helper_key == "Admin":
+    elif helper_key == "💫 ʏᴏ̈ɴᴇᴛɪ̇ᴄɪ̇":
         return text.format(
             _cmd("PAUSE_COMMAND"),
             _cmd("RESUME_COMMAND"),
@@ -63,21 +63,21 @@ async def format_helper_text(lng, helper_key: str, text: str) -> str:
             _cmd("REBOOT_COMMAND"),
             _cmd("LOOP_COMMAND"),
         )
-    elif helper_key == "Active":
+    elif helper_key == "💫 sᴜᴅᴏ":
         return text.format(
             _cmd("ACTIVEVC_COMMAND"),
             _cmd("ACTIVEVIDEO_COMMAND"),
             _cmd("AC_COMMAND"),
             _cmd("STATS_COMMAND"),
         )
-    elif helper_key == "Play":
+    elif helper_key == "💫 ᴏʏɴᴀᴛ":
         return text.format(
             _cmd("PLAY_COMMAND"),
             _cmd("PLAYMODE_COMMAND"),
             _cmd("CHANNELPLAY_COMMAND"),
             _cmd("STREAM_COMMAND"),
         )
-    elif helper_key == "G-cast":
+    elif helper_key == "💫 ʀᴇᴋʟᴀᴍ":
         return text.format(_cmd("BROADCAST_COMMAND"))
     elif helper_key == "Bot":
         return text.format(
@@ -90,14 +90,14 @@ async def format_helper_text(lng, helper_key: str, text: str) -> str:
             _cmd("UNAUTHORIZE_COMMAND"),
             _cmd("AUTHORIZED_COMMAND"),
         )
-    elif helper_key == "P-List":
+    elif helper_key == "💫 ᴘ-ʟɪ̇sᴛᴇ":
         return text.format(
             _cmd("PLAYLIST_COMMAND"),
             _cmd("DELETE_PLAYLIST_COMMAND"),
             _cmd("PLAY_PLAYLIST_COMMAND"),
             _cmd("PLAY_PLAYLIST_COMMAND"),
         )
-    elif helper_key == "B-list":
+    elif helper_key == "💫 ʙ-ʟɪ̇sᴛᴇ":
         return text.format(
             _cmd("BLACKLISTCHAT_COMMAND"),
             _cmd("WHITELISTCHAT_COMMAND"),
@@ -109,7 +109,7 @@ async def format_helper_text(lng, helper_key: str, text: str) -> str:
             _cmd("UNGBAN_COMMAND"),
             _cmd("GBANNED_COMMAND"),
         )
-    elif helper_key == "Dev":
+    elif helper_key == "💫 sᴀʜɪ̇ʙɪ̇":
         return text.format(
             _cmd("ADDSUDO_COMMAND"),
             _cmd("DELSUDO_COMMAND"),
