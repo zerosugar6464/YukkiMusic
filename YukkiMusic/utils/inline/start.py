@@ -27,18 +27,18 @@ def start_pannel(_):
     if SUPPORT_CHANNEL and SUPPORT_GROUP:
         buttons.append(
             [
-                InlineKeyboardButton(text=_["S_B_4"], url=f"{SUPPORT_CHANNEL}"),
-                InlineKeyboardButton(text=_["S_B_3"], url=f"{SUPPORT_GROUP}"),
+                InlineKeyboardButton(text=_["S_B_4"], url=f"https://t.me/the_team_kumsal"),
+                InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/the_team_kumsal"),
             ]
         )
     else:
         if SUPPORT_CHANNEL:
             buttons.append(
-                [InlineKeyboardButton(text=_["S_B_4"], url=f"{SUPPORT_CHANNEL}")]
+                [InlineKeyboardButton(text=_["S_B_4"], url=f"https://t.me/the_team_kumsal")]
             )
         if SUPPORT_GROUP:
             buttons.append(
-                [InlineKeyboardButton(text=_["S_B_3"], url=f"{SUPPORT_GROUP}")]
+                [InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/the_team_kumsal")]
             )
     return buttons
 
@@ -50,14 +50,14 @@ def private_panel(_, BOT_USERNAME, OWNER: bool | int = None):
     if SUPPORT_CHANNEL and SUPPORT_GROUP:
         buttons.append(
             [
-                InlineKeyboardButton(text=_["S_B_4"], url=f"{SUPPORT_CHANNEL}"),
-                InlineKeyboardButton(text=_["S_B_3"], url=f"{SUPPORT_GROUP}"),
+                InlineKeyboardButton(text=_["S_B_4"], url=f"https://t.me/the_team_kumsal"),
+                InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/the_team_kumsal"),
             ]
         )
     else:
         if SUPPORT_CHANNEL:
             buttons.append(
-                [InlineKeyboardButton(text=_["S_B_4"], url=f"{SUPPORT_CHANNEL}")]
+                [InlineKeyboardButton(text=_["S_B_4"], url=f"https://t.me/the_team_kumsal")]
             )
         if SUPPORT_GROUP:
             buttons.append(
@@ -75,7 +75,7 @@ def private_panel(_, BOT_USERNAME, OWNER: bool | int = None):
         buttons.append(
             [
                 InlineKeyboardButton(text=_["S_B_7"], user_id=OWNER),
-                InlineKeyboardButton(text=_["S_B_6"], url=f"{GITHUB_REPO}"),
+                InlineKeyboardButton(text=_["S_B_6"], url=f"https://t.me/the_team_kumsal"),
             ]
         )
     else:
@@ -83,7 +83,7 @@ def private_panel(_, BOT_USERNAME, OWNER: bool | int = None):
         if GITHUB_REPO:
             buttons.append(
                 [
-                    InlineKeyboardButton(text=_["S_B_6"], url=f"{GITHUB_REPO}"),
+                    InlineKeyboardButton(text=_["S_B_6"], url=f"https://t.me/the_team_kumsal"),
                 ]
             )
 
