@@ -64,7 +64,7 @@ DELSUDO_COMMAND : [ "sudosil"]
 SUDOUSERS_COMMAND : ["sudolistesi"]
 
 #Yayın 
-BROADCAST_COMMAND : ["reklam", "duyuru"]
+BROADCAST_COMMAND : ["reklamin", "duyuruuuu"]
 
 #Kara liste sohbeti
 BLACKLISTCHAT_COMMAND : [ "grupyasakla"]
