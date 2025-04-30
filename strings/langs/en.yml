@@ -237,8 +237,11 @@ queue_4 : "**💫 Sıraya Eklendi #{0}**\n\n**🥀Başlık :** {1}\n**⏱ Süre 
 queue_5 : "Sıralamada yalnızca bir parça var, sıralamayı kontrol etmek için bazı parçalar ekleyin."
 
 # All Streaming Lines
-stream_1 : "**✮ Akış Başladı**\n\n**✯ Başlık :** [{0}]({1})\n**✬ Süre :** {2} dakika\n✭ Boyut :** {3}"
-stream_2 : "➲ **Akış Başladı |**\n\n**‣ Akış Türü :** Canlı akış [URL]\n**‣ Ekleyen :** {0}"
+stream_1 : "┏━━━━━━━━━━━━━━━━⧫\n┠ 🩸 **➙ 𝙔𝘼𝙔𝙄𝙉 𝘽𝘼𝙎𝙇𝘼𝘿𝙄°**\n┗━━━━━━━━━━━━━━━━⧫\n◆\n **╰𝗕𝗶𝗹𝗴𝗶:** ⇢ {0}\n** 𝗦𝘂𝗿𝗲:** ⇢ {2}\n** 𝗧𝗮𝗹𝗲𝗽 𝗲𝗱𝗲𝗻 ⇢**: {3} ~"
+stream_2 : "┏━━━━━━━━━━━━━━━━⧫\n┠ 🀄 **Sᴛᴀʀᴛᴇᴅ Pʟᴀʏɪɴɢ°**\n┗━━━━━━━━━━━━━━━━⧫\n◆\n ╰ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ » {0} ~"
+stream_3 : "┏━━━━━━━━━━━━━━━━⧫\n┠ 🀄 **Sᴛᴀʀᴛᴇᴅ Pʟᴀʏɪɴɢ°**\n┗━━━━━━━━━━━━━━━━⧫\n◆\n ╰ Tɪᴛʟᴇ » `{0}` ~\n◆ \n ╰ Dᴜʀᴀᴛɪᴏɴ » `{1}` ~\n◆ \n ╰ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ » {2} ~"
+stream_4 : "┏━━━━━━━━━━━━━━━━⧫\n┠ 🀄 **Sᴛᴀʀᴛᴇᴅ Pʟᴀʏɪɴɢ°**\n┗━━━━━━━━━━━━━━━━⧫\n◆\n ╰ Tɪᴛʟᴇ » [{0}]({1}) ~\n◆ \n ╰ Dᴜʀᴀᴛɪᴏɴ » {1} ~\n◆ \n ╰ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ » {2} ~"
+
 
 V_C_1 : "Katılımcı listesi getiriliyor...."
 V_C_2 : "**İsim: {0}**\n   ID: {1}\n    **Kullanıcı Adı:** {2}\n    **Video Paylaşımı:** {3}\n    **Ekran Paylaşımı:** {4}\n    **El Kaldırdı:** {5}\n    **Sessize Alındı:** {6}\n     **Konuşuyor:** {7}\n    **Grupta Değil:** {8}"
@@ -249,23 +252,22 @@ V_C_5 : "Bu sohbette aktif bir çağrı yok."
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "KAPAT"
-CLOSEMENU_BUTTON  : "KAPAT"
-BACK_BUTTON : "GERİ"
-UNBAN_BUTTON : "YASAKLAMAYI KALDIR"
-
+CLOSE_BUTTON  : "ᴋᴀᴘᴀᴛ"
+CLOSEMENU_BUTTON  : "🗑️ 𝙈𝙀𝙉𝙐̈𝙔𝙐̈ 𝙆𝘼𝙋𝘼𝙏"
+BACK_BUTTON : "ɢᴇʀɪ"
+UNBAN_BUTTON : "ᴀsɪsᴛᴀɴ ʏᴀsᴀɢ̆ɪɴɪ ᴋᴀʟᴅɪʀ"
 #Lyrics
 L_B_1 : "🚀 Şarkı sözlerini şimdi kontrol et"
 
 # Start
-S_B_1 : "🗒 Komutlar"
-S_B_2 : "🔧 Ayarlar"
-S_B_3 : "📨 Destek"
-S_B_4 : "📨 Kanal"
-S_B_5 : "✚ Beni Grupınıza Ekleyin ✚"
-S_B_6 : "💡 Git Repo"
-S_B_7 : "👤 Sahip"
-S_B_8 : "🔎 Nasıl Kullanılır? Komut Menüsü"
+S_B_1 : "🏩 yardım Komutlar 🏩"
+S_B_2 : "🔮 ayarlar 🔮"
+S_B_3 : "🍬 Duyuru 🍬"
+S_B_4 : "🍹 Kumsal bots 🍹"
+S_B_5 : "⛩️ Beni Grubuna ekle ⛩️"
+S_B_6 : "🍡 Reklam 🍡"
+S_B_7 : "🫧 Geliştirici 🫧"
+S_B_8 : "🏩 yardım Komutlar 🏩"
 
 #PlayMode
 PM_B_1 : "Doğrudan Çal"
